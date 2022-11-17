@@ -1,0 +1,161 @@
+*{
+    overflow: hidden;
+}
+.navbar{
+    background-color: #3B7097 !important;
+    padding: 20px !important;
+    height:75px;
+}
+
+.btn-outline-success{
+    color: #F6E2BC;
+    border-color:#F6E2BC; ;
+}
+
+.btn-outline-success:hover{
+    background-color: #F6E2BC;
+    color:#3B7097 ;
+    border-color:#F6E2BC ;
+}
+
+.form-control{
+    background-color: #f6f0e6;
+    border-color: none;
+    transition: none;
+}
+
+.form-control:hover{
+    border-color: none;
+    background-color: #f6f0e6;
+}
+
+.dropdown-menu{
+    background-color: #f6f0e6;
+}
+
+footer{
+    height:55px;
+}
+.bg-light{
+    background-color: #4c738f !important;
+}
+
+.ata{
+    height:calc(100vh - 130px);
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    text-align: center;
+    border:none;
+    background-color: #4c738f;
+    margin-left: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+.card{
+    background-color: rgb(255, 128, 0);
+    border-radius: 15px;
+    transition: all 0.8s;
+}
+
+.card:hover{
+    transform: scale(0.95);
+    box-shadow:0px 0px 5px 5px #4c738f;
+}
+
+.product-color{
+    display: flex;
+    justify-content: center;
+}
+
+.color{
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.white{
+    background-color: white;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: #4c738f;
+}
+
+.product-size{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.size{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.price{
+    text-align: center;
+}
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    margin: auto;
+}
+.App {
+    background-color: white;
+  }
+  
+  .Auth-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
